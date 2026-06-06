@@ -41,6 +41,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
    );
  ```
 
+
  ### 2. Data Exploration & Cleaning
 
 - **Record Count**: Determine the total number of records in the dataset.
@@ -70,7 +71,7 @@ WHERE
      The following SQL queries were developed to answer specific business questions:
 
  
-          1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
+    1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
 ```sql
 SELECT *
 FROM retail_sales
@@ -198,9 +199,10 @@ GROUP BY shift
   
 
   ##  Reports
-    **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-    **Trend Analysis**: Insights into sales trends across different months and shifts.
-    **Customer Insights**: Reports on top customers and unique customer counts per category
+
+   - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
+   - **Trend Analysis**: Insights into sales trends across different months and shifts.
+   -  **Customer Insights**: Reports on top customers and unique customer counts per category
 
 
  ## Conclusion
