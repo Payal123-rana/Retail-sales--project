@@ -41,8 +41,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
    );
  ```
 
-
- ### 2. Data Exploration & Cleaning
+### 2. Data Exploration & Cleaning
 
 - **Record Count**: Determine the total number of records in the dataset.
 - **Customer Count**: Find out how many unique customers are in the dataset.
@@ -67,18 +66,20 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
 
+
+
+
  ### 3  Data Analysis & Findings
      The following SQL queries were developed to answer specific business questions:
 
- 
-    1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
+ 1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
 ```sql
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 ```
 
-    2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**:
+ 2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**:
 ```sql
 SELECT 
   *
