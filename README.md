@@ -73,7 +73,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```sql
 SELECT *
 FROM retail_sales
-WHERE sale_date = '2022-11-05';
+WHERE sale_date = '2022-11-05'
 ```
 
     2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**:
