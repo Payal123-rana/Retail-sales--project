@@ -66,10 +66,7 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
 
-
-
-
- ### 3  Data Analysis & Findings
+### 3  Data Analysis & Findings
      The following SQL queries were developed to answer specific business questions:
 
  1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
@@ -149,7 +146,8 @@ GROUP BY 1, 2
 WHERE rank = 1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 SELECT 
     customer_id,
